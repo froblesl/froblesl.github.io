@@ -1,0 +1,76 @@
+body{
+    background-color: #e9ecef;
+}
+
+p {
+    color: #000; /* Cambia esto al color que prefieras */
+}
+
+.navbar {
+    background-color: #f8f9fa !important;
+    min-height: 120px;
+}
+
+.navbar-icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos en el contenedor flexbox */
+    height: 100%;
+    color: #6c757d; /* Asegura que el contenedor flexbox tenga la misma altura que la barra de navegación */
+}
+
+.navbar-icons li {
+    list-style: none;
+    margin-right: 30px; /* Ajusta este valor según tus necesidades */
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px; /* Ajusta este valor según tus necesidades */
+}
+
+
+
+.rounded-circle {
+    width: 600px; /* Ajusta este valor según tus necesidades */
+    height: 600px; /* Ajusta este valor según tus necesidades */
+    border: 10px solid #dee2e6; /* Ajusta este valor según tus necesidades */
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: 0px; /* Ajusta este valor según tus necesidades */
+    margin-bottom: 0px;
+}
+
+.centered-image {
+    position: absolute;
+    z-index: 10;
+    width: 600px;
+    height: 600px;
+    top: 55%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%; /* Esto asegura que la imagen sea redonda */
+}
+
+.titulo1{
+    position: absolute;
+    top: 44%;
+    left: 15%;
+}
+
+.titulo2{
+    position: absolute;
+    top: 50%;
+    left: 16%;
+}
+
+.highlight{
+    color: #007bff;
+}
+
+.about-button{
+    position: absolute;
+    top: 55%;
+    left: 16%;
+}
