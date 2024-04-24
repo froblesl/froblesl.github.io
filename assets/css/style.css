@@ -85,3 +85,20 @@ section {
     top: 54%;
     left: 16%;
 }
+
+/* EDUCACION */
+
+.titulo_educacion {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container_educacion{
+    width: 80%;
+}
+
+.card{
+    margin: 5%;
+}
