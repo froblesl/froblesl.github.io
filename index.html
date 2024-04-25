@@ -57,34 +57,33 @@
     <main>
 
         <section class="home" id="home">
-            <!-- Contenedor con la imagen centrada -->
-            <div class="container full-screen-container">
-                <img src="assets/imgs/imagen1.jpeg" alt="Foto Francisco Robles" class="rounded-circle centered-image">
-            </div>
-        
-            <!-- Nueva división con texto visible -->
-            <div class="titulo1">
-                <h1>Francisco Robles Laymuns</h1>    
+
+            <div class="row">
+                <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center text-center">
+                    <div class="">
+                        <div class="card-body my-3">
+                          <h1 class="card-title">Francisco Robles Laymuns</h1>
+                          <h4>I´m a passionate <span class="highlight">Software Developer</span> from Chile</h4>
+                          <a href="#educacion" class="btn btn-primary">About Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/imagen1.jpeg" class="card-img-top" alt="Foto Francisco Robles" style="width: 75%; border-radius: 50%; border: 5px solid #f8f9fa;">
+                    </div>
+                </div>
             </div>
 
-            <div class="titulo2">
-                <h4>I´m a passionate <span class="highlight">Software Developer</span> from Chile</h4>    
-            </div>
-
-            <div class="about-button">
-                <a href="#educacion" class="btn btn-primary">About Me</a>
-            </div>
         </section>
 
-        <section class="educacion" id="educacion">
-            
-            <div>
+        <section class="educacion d-flex flex-column align-items-center justify-content-center" id="educacion">
+            <div class="my-5">
                 <h1 class="titulo_educacion">Educación</h1>
             </div>
-
             <div class="container_educacion">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row mt-5">
+                    <div class="col-md-6 col-sm-12">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Magíster en Ingeniería de Software</h5>
@@ -93,7 +92,7 @@
                             </div> 
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-12">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Ingeniería Comercial - Mención Economía</h5>
@@ -104,7 +103,7 @@
                     </div>
                 </div>   
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-12">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Full Stack Developer</h5>
@@ -113,7 +112,7 @@
                             </div> 
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-12">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Eduación Básica - Media</h5>
@@ -124,17 +123,12 @@
                     </div>
                 </div>   
             </div>
-
-            
-            
         </section>
 
-        <section class="experiencia" id="experiencia">
-
-            <div>
+        <section class="experiencia my-5" id="experiencia">
+            <div class="my-5 text-center">
                 <h1 class="titulo_experiencia">Experiencia</h1>
             </div>
-
             <div class="container_experiencia">
                 <div class="row">
                     <div class="col-md-12">
@@ -155,19 +149,19 @@
                             </div> 
                         </div>
                     </div>
-                </div> 
-        
+                </div>   
+            </div>
         </section>
 
         <section class="portfolio" id="portfolio">
-            <div>
+            <div class="my-5">
                 <h1 class="titulo_portfolio">Portafolio</h1>
                 
             </div>
 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mx-auto" style="width: 50rem;">
+            <div class="row" >
+                <div class="col-xl-4 col-md-12 col-sm-12">
+                    <div class="card mx-auto" style="width: 100%;">
                         <img src="assets/imgs/foto1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Marketplace de propiedades</h5>
@@ -175,8 +169,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mx-auto" style="width: 50rem;">
+                <div class="col-xl-4 col-md-12 col-sm-12">
+                    <div class="card mx-auto" style="width: 100%;">
                         <img src="assets/imgs/foto2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Reptiles</h5>
@@ -184,8 +178,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mx-auto" style="width: 50rem;">
+                <div class="col-xl-4 col-md-12 col-sm-12">
+                    <div class="card mx-auto" style="width: 100%;">
                         <img src="assets/imgs/foto3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Cupón Marketplace</h5>
@@ -215,7 +209,7 @@
           <a class="text-white" href="#home">Francisco Robles Laymuns</a>
         </div>
         <!-- Copyright -->
-      </footer>
+    </footer>
 
     <!-- JS de Bootstrap 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

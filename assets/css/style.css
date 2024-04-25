@@ -43,32 +43,7 @@ section {
     margin-right: 20px; /* Ajusta este valor según tus necesidades */
 }
 
-.rounded-circle {
-    width: 600px; /* Ajusta este valor según tus necesidades */
-    height: 600px; /* Ajusta este valor según tus necesidades */
-    border: 10px solid #dee2e6; /* Ajusta este valor según tus necesidades */
-    border-radius: 100%;
-    object-fit: cover;
-    margin-left: 0px; /* Ajusta este valor según tus necesidades */
-    margin-bottom: 0px;
-}
 
-.centered-image {
-    position: absolute;
-    z-index: 10;
-    width: 600px;
-    height: 600px;
-    top: 55%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%; /* Esto asegura que la imagen sea redonda */
-}
-
-.titulo1{
-    position: absolute;
-    top: 45%;
-    left: 15%;
-}
 
 .titulo2{
     position: absolute;
@@ -88,12 +63,6 @@ section {
 
 /* EDUCACION */
 
-.titulo_educacion {
-    position: absolute;
-    top: 125%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .container_educacion{
     width: 80%;
@@ -103,20 +72,6 @@ section {
     margin: 5%;
 }
 
-.titulo_experiencia {
-    position: absolute;
-    top: 225%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .container_experiencia{
-    width: 40%;
-}
-
-.titulo_portfolio{
-    position: absolute;
-    top: 325%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 80%;
 }
