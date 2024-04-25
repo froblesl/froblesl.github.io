@@ -1,0 +1,122 @@
+body{
+    background-color: #e9ecef;
+}
+
+section {
+    min-height: 100vh;
+    /* Asegúrate de que el contenido de cada sección se ajuste correctamente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #f8f9fa !important;
+    min-height: 120px;
+}
+
+.educacion {
+    background-color: #f8f9fa; /* Reemplaza #abcdef con el color que desees */
+}
+
+.portfolio {
+    background-color: #f8f9fa; /* Reemplaza #abcdef con el color que desees */
+}
+
+.navbar-icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos en el contenedor flexbox */
+    height: 100%;
+    color: #6c757d; /* Asegura que el contenedor flexbox tenga la misma altura que la barra de navegación */
+}
+
+.navbar-icons li {
+    list-style: none;
+    margin-right: 30px; /* Ajusta este valor según tus necesidades */
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px; /* Ajusta este valor según tus necesidades */
+}
+
+.rounded-circle {
+    width: 600px; /* Ajusta este valor según tus necesidades */
+    height: 600px; /* Ajusta este valor según tus necesidades */
+    border: 10px solid #dee2e6; /* Ajusta este valor según tus necesidades */
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: 0px; /* Ajusta este valor según tus necesidades */
+    margin-bottom: 0px;
+}
+
+.centered-image {
+    position: absolute;
+    z-index: 10;
+    width: 600px;
+    height: 600px;
+    top: 55%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%; /* Esto asegura que la imagen sea redonda */
+}
+
+.titulo1{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+.titulo2{
+    position: absolute;
+    top: 50%;
+    left: 16%;
+}
+
+.highlight{
+    color: #007bff;
+}
+
+.about-button{
+    position: absolute;
+    top: 54%;
+    left: 16%;
+}
+
+/* EDUCACION */
+
+.titulo_educacion {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container_educacion{
+    width: 80%;
+}
+
+.card{
+    margin: 5%;
+}
+
+.titulo_experiencia {
+    position: absolute;
+    top: 225%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container_experiencia{
+    width: 40%;
+}
+
+.titulo_portfolio{
+    position: absolute;
+    top: 325%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
