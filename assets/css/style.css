@@ -102,3 +102,21 @@ section {
 .card{
     margin: 5%;
 }
+
+.titulo_experiencia {
+    position: absolute;
+    top: 225%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container_experiencia{
+    width: 40%;
+}
+
+.titulo_portfolio{
+    position: absolute;
+    top: 325%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
